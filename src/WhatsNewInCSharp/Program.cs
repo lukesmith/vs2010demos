@@ -14,6 +14,8 @@ namespace WhatsNewInCSharp
             actions.Add(new Action(DoNamedParameters));
             actions.Add(new Action(DoOptionalArguments));
             actions.Add(new Action(ParallelLinq.AsParallel));
+            actions.Add(new Action(ParallelLinq.ParallelFor));
+            actions.Add(new Action(ParallelLinq.ParallelAsOrdered));
 
             for (int i = 0; i < actions.Count; i++)
             {
